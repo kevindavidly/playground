@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            background-color:blue;
+            display: inline-block;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    {% for i in range(times): %}
+    <div style="background-color:{{color}} ;"></div>
+    {% endfor %}
+    
+</body>
+   
+ </html>
+
